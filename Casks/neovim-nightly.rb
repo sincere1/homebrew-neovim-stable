@@ -1,10 +1,10 @@
-cask 'neovim-nightly' do
+cask 'neovim-stable' do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz"
-  name 'Neovim Nightly'
+  url "https://github.com/neovim/neovim/releases/download/stable/nvim-macos.tar.gz"
+  name 'Neovim Stable'
   homepage 'https://neovim.io/'
 
-  binary 'nvim-osx64/bin/nvim'
+  binary 'nvim-macos/bin/nvim'
 end
